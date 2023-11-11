@@ -33,3 +33,18 @@ document.querySelector('.btn').addEventListener('click', function () {
   }, 5000)
 })
 
+
+
+function checkPassword() {
+    // Replace 'your-username' and 'your-password' with your desired values
+    var enteredUsername = document.getElementById('username').value;
+    var enteredPassword = document.getElementById('password').value;
+    if (enteredUsername === 'thankyou' && enteredPassword === 'thankyou') {
+        // Redirect to the protected page
+        window.location.href = './index_eng.html';
+    } else {
+        // Show an error message
+        alert('Incorrect username or password. Please try again.');
+    }
+}
+   

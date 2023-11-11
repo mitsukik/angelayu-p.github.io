@@ -13,12 +13,12 @@
 	<meta name="author" content="angela yu">
 	<link rel="icon" href="./img/logo_01.png">
 
-	<!--bootstrap--->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
+	<!-- bootstrap -->
+	<link rel="stylesheet" href="./vendor/bootstrap5.3.0/css/bootstrap.min.css" type="text/css">
+	<link rel="stylesheet" href="./vendor/font-awesome/5.9.0/css/all.css">
 
-	<!--custom css--->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+	<!-- custom css -->
+	<link rel="stylesheet" href="./vendor/animate/4.0.0/animate.compat.css">
 	<link rel="stylesheet" href="./css/hover-min.css" type="text/css">
 	<link rel="stylesheet" href="./css/style.css" type="text/css">
 	<link rel="stylesheet" href="./css/background.css" type="text/css">
@@ -54,10 +54,10 @@
 	<div class="wrapper">
 		<!-- NAV -->
 		<nav class="navbar navbar-expand-lg justify-content-sm-start fixed-top">
-			<a href="./index.html" class="navbar-brand order-1 order-lg-0 ml-lg-0 ml-2 mr-auto">
-				<img src="./img/angelayu-logo01.png" class="my-logo" alt="angelayu LOGO">
+			<a href="./index_eng.html" class="navbar-brand order-1 order-lg-0 ml-lg-0 ml-2 mr-auto">
+				<p class="logo-name">Angela Yu</p>
 			</a>
-			<button class="navbar-toggler align-self-start" type="button" >
+			<button class="navbar-toggler align-self-start" type="button">
 				<div class="nav-icon0">
 				  <span></span>
 				  <span></span>
@@ -70,13 +70,13 @@
 			<div class="collapse navbar-collapse d-flex flex-column flex-lg-row flex-xl-row justify-content-lg-end p-3 p-lg-0 mt-lg-0 mobileMenu" id="navbarSupportedContent">
 				<ul class="navbar-nav align-self-stretch">
 					<li class="nav-item delay-1 active">
-						<a class="nav-link" href="./index.html">HOME<span class="sr-only">(current)</span></a>
+						<a class="nav-link" href="./index_eng.html">HOME<span class="sr-only">(current)</span></a>
 					</li>
 					<li class="nav-item delay-2">
-						<a class="nav-link" data-toggle="modal" data-target="#aboutMe">ABOUT</a>
+						<a class="nav-link" data-bs-toggle="modal" data-bs-target="#aboutMe">ABOUT</a>
 					</li>
 					<li class="nav-item delay-3">
-						<a class="nav-link" href="#">PORTFOLIO</a>
+						<a class="nav-link" href="./portfolio.html">PORTFOLIO</a>
 					</li>
 					<li class="nav-item delay-4">
 						<a class="nav-link" href="mailto:mitsuki0w0@gmail.com" target="_blank">CONTACT</a>
@@ -122,112 +122,194 @@
 			<!-- Portfolio All -->
 			<div class="portfolio-all">
 			    <div class="container text-center">
-			    	<!-- Row one -->
-                    <div class="portfolio-frame d-flex">
+			    	<div>
+			    		<div class="page-title">
+			    			<h2>Showcase</h2>
+			    			<p>Here are some of my recent work</p>
+			    		</div>
+			    		<div class="caseItem-all-wrapper row">
 
-                        <!-- Work 01 -->
-                        <a href="./work01.html" class="p-2 flex-fill portfolio-img work01-sm animated fadeInUp">
-                            <div class="portfolio-text-block">
-                                <h3>Event Website</h3>
-                                <p>Website/ UI/UX</p>
-                            </div>
-                        </a>
-                        <!-- /Work 01 -->
+			    			<div class="col-md-4 col-12 hvr-float">
+			    				<a href="./work01.html"><div class="caseItem-wrapper animated fadeInUp">
+				    				<div class="caseItem-img">
+				    					<img src="./img/portfolio/case01/case01_01.jpg"alt="img">
+				    				</div>
+				    				<div class="caseItem-content d-flex justify-content-between">
+				    					<div class="col-3 align-self-center">
+				    						<h3 class="underline">01</h3>
+				    					</div>
+				    					<div class="col-9">
+				    						<p class="case-title">Fashion APP & CMS</p>
+				    						<div class="case-wrapper"><span>ui/ux</span><span>web design</span><span>app</span><span>cms</span></div>
+				    					</div>
+				    				</div>
+			    				</div></a>
+			    			</div>
 
-                        <!-- Work 02 -->
-                        <a href="./work02.html" class="p-2 flex-fill portfolio-img work02-sm animated fadeInDown">
-                            <div class="portfolio-text-block">
-                                <h3>Landing Page</h3>
-                                <p>Website/ UI/UX</p>
-                            </div>
-                        </a>
-                        <!-- /Work 02 -->
+			    			<div class="col-md-4 col-12 hvr-float">
+			    				<a href="./work02.html"><div class="caseItem-wrapper animated fadeInDown">
+				    				<div class="caseItem-img">
+				    					<img src="./img/portfolio/case02/case02_001.jpg"alt="img">
+				    				</div>
+				    				<div class="caseItem-content d-flex justify-content-between">
+				    					<div class="col-3 align-self-center">
+				    						<h3 class="underline">02</h3>
+				    					</div>
+				    					<div class="col-9">
+				    						<p class="case-title">Online Shop & CMS</p>
+				    						<div class="case-wrapper"><span>ui/ux</span><span>web design</span><span>cms</span></div>
+				    					</div>
+				    				</div>
+			    				</div></a>
+			    			</div>
 
-                        <!-- Work 03 -->
-                        <a href="./work03.html" class="p-2 flex-fill portfolio-img work03-sm animated fadeInUp">
-                            <div class="portfolio-text-block">
-                                <h3>Official Website</h3>
-                                <p>Website/ UI/UX</p>
-                            </div>
-                        </a>
-                        <!-- /Work 03 -->
+			    			<div class="col-md-4 col-12 hvr-float">
+			    				<a href="./work03.html"><div class="caseItem-wrapper animated fadeInUp">
+				    				<div class="caseItem-img">
+				    					<img src="./img/portfolio/case03/case03_001.jpg" alt="img">
+				    				</div>
+				    				<div class="caseItem-content d-flex justify-content-between">
+				    					<div class="col-3 align-self-center">
+				    						<h3 class="underline">03</h3>
+				    					</div>
+				    					<div class="col-9">
+				    						<p class="case-title">Industrial Dashboard</p>
+				    						<div class="case-wrapper"><span>ui/ux</span><span>web design</span><span>dashboard</span></div>
+				    					</div>
+				    				</div>
+			    				</div></a>
+			    			</div>
 
-                        <!-- Work 04 -->
-                        <a href="./work04.html" class="p-2 flex-fill portfolio-img work04-sm animated fadeInDown">
-                            <div class="portfolio-text-block">
-                                <h3>EMENU Website</h3>
-                                <p>Website/ UI/UX</p>
-                            </div>
-                        </a>
-                        <!-- /Work 04 -->
-                    </div>
-                    <!-- /Row one -->
+			    			<div class="col-md-4 col-12 hvr-float">
+			    				<a href="./work04.html"><div class="caseItem-wrapper animated fadeInLeft delay-1s">
+				    				<div class="caseItem-img">
+				    					<img src="./img/portfolio/case04/case04_001.png"alt="img">
+				    				</div>
+				    				<div class="caseItem-content d-flex justify-content-between">
+				    					<div class="col-3 align-self-center">
+				    						<h3 class="underline">04</h3>
+				    					</div>
+				    					<div class="col-9">
+				    						<p class="case-title">Industrial IoT System</p>
+				    						<div class="case-wrapper"><span>ui/ux</span><span>web design</span><span>cms</span><span>dashboard</span><span>IoT MS</span></div>
+				    					</div>
+				    				</div>
+			    				</div></a>
+			    			</div>
 
-                    <!-- Row two -->
-                    <div class="portfolio-frame d-flex">
+			    			<div class="col-md-4 col-12 hvr-float">
+			    				<a href="./work05.html"><div class="caseItem-wrapper animated fadeInUp delay-1s">
+				    				<div class="caseItem-img">
+				    					<img src="./img/portfolio/case01/case01_01.jpg"alt="img">
+				    				</div>
+				    				<div class="caseItem-content d-flex justify-content-between">
+				    					<div class="col-3 align-self-center">
+				    						<h3 class="underline">05</h3>
+				    					</div>
+				    					<div class="col-9">
+				    						<p class="case-title">Bakery IoT System</p>
+				    						<div class="case-wrapper"><span>ui/ux</span><span>web design</span><span>cms</span><span>dashboard</span><span>IoT MS</span></div>
+				    					</div>
+				    				</div>
+			    				</div></a>
+			    			</div>
 
-                        <!-- Work 05 -->
-                        <a href="./work05.html" class="p-2 flex-fill portfolio-img work05-sm animated fadeInDown">
-                            <div class="portfolio-text-block">
-                                <h3>Group Buy</h3>
-                                <p>Website/ UI/UX / CI</p>
-                            </div>
-                        </a>
-                        <!-- /Work 05 -->
+			    			<div class="col-md-4 col-12 hvr-float">
+			    				<a href="./work06.html"><div class="caseItem-wrapper animated fadeInRight delay-1s">
+				    				<div class="caseItem-img">
+				    					<img src="./img/portfolio/case06/case06_001.jpg"alt="img">
+				    				</div>
+				    				<div class="caseItem-content d-flex justify-content-between">
+				    					<div class="col-3 align-self-center">
+				    						<h3 class="underline">06</h3>
+				    					</div>
+				    					<div class="col-9">
+				    						<p class="case-title">Offical Website</p>
+				    						<div class="case-wrapper"><span>ui/ux</span><span>web design</span></div>
+				    					</div>
+				    				</div>
+			    				</div></a>
+			    			</div>
 
-                        <!-- Work 06 -->
-                        <a href="./work06.html" class="p-2 flex-fill portfolio-img work06-sm animated fadeInUp">
-                            <div class="portfolio-text-block">
-                                <h3>Official Website</h3>
-                                <p>Website/ UI/UX</p>
-                            </div>
-                        </a>
-                        <!-- /Work 06 -->
+			    			<div class="col-md-4 col-12 hvr-float">
+			    				<a href="./work07.html"><div class="caseItem-wrapper animated fadeInRight delay-1s">
+				    				<div class="caseItem-img">
+				    					<img src="./img/portfolio/case07/case07_001.jpg"alt="img">
+				    				</div>
+				    				<div class="caseItem-content d-flex justify-content-between">
+				    					<div class="col-3 align-self-center">
+				    						<h3 class="underline">07</h3>
+				    					</div>
+				    					<div class="col-9">
+				    						<p class="case-title">School Bag IoT APP</p>
+				    						<div class="case-wrapper"><span>ui/ux</span><span>app</span></div>
+				    					</div>
+				    				</div>
+			    				</div></a>
+			    			</div>
 
-                        <!-- Work 07 -->
-                        <a href="./work07.html" class="p-2 flex-fill portfolio-img work07-sm animated fadeInUp">
-                            <div class="portfolio-text-block">
-                                <h3>Illustration</h3>
-                                <p>Illustration/ GIF</p>
-                            </div>
-                        </a>
-                        <!-- /Work 07 -->
+			    			<div class="col-md-4 col-12 hvr-float">
+			    				<a href="./work08.html"><div class="caseItem-wrapper animated fadeInRight delay-1s">
+				    				<div class="caseItem-img">
+				    					<img src="./img/portfolio/case08/case08_001.jpg"alt="img">
+				    				</div>
+				    				<div class="caseItem-content d-flex justify-content-between">
+				    					<div class="col-3 align-self-center">
+				    						<h3 class="underline">08</h3>
+				    					</div>
+				    					<div class="col-9">
+				    						<p class="case-title">Offical Website</p>
+				    						<div class="case-wrapper"><span>ui/ux</span><span>web design</span></div>
+				    					</div>
+				    				</div>
+			    				</div></a>
+			    			</div>
 
-                        <!-- Index -->
-                        <a href="./index.html" class="p-2 flex-fill portfolio-img animated fadeInDown">
-                            <div class="portfolio-text-block">
-                                <h3 class="back">< home</h3>
-                            </div>
-                        </a>
-                        <!-- /Index -->
-
-                    </div>
-                    <!-- /Row two -->
+			    			<div class="col-md-4 col-12 hvr-float">
+			    				<a href="./work09.html"><div class="caseItem-wrapper animated fadeInRight delay-1s">
+				    				<div class="caseItem-img">
+				    					<img src="./img/portfolio/case09/case09_001.jpg" alt="img">
+				    				</div>
+				    				<div class="caseItem-content d-flex justify-content-between">
+				    					<div class="col-3 align-self-center">
+				    						<h3 class="underline">09</h3>
+				    					</div>
+				    					<div class="col-9">
+				    						<p class="case-title">Landing Page</p>
+				    						<div class="case-wrapper"><span>ui/ux</span><span>web design</span></div>
+				    					</div>
+				    				</div>
+			    				</div></a>
+			    			</div>
+			    		</div>
+			    	</div>
 			    </div>
-                <div class="col-md-12 footer-desktop">
-                    <p>Copyright 2019 Angela Yu All Rights Reserved.</p>
-                </div>
+
+                <footer class="footer col-12">
+			        <p>Copyright&nbsp;&copy;&nbsp;<script>document.write(new Date().getFullYear());</script>&nbsp;Angela Yu&nbsp;All rights reserved.</p>
+                </footer>
 			 </div>
 			<!-- /Portfolio All -->
 		</main>
 
 		<!-- The Modal -->
-		<div class="modal fade" id="aboutMe">
+		<div class="modal fade" id="aboutMe" tabindex="-1" aria-labelledby="aboutMe" aria-hidden="true">
 			<div class="modal-dialog modal-xl modal-dialog-centered">
 				<div class="modal-content">
 					<div class="row">
 
-						<div class="col-md-6 col-sm-12 col-xs-12 self-section-bg">
+						<div class="col-md-6 col-sm-12 col-12 self-section-bg">
 							<div class="self-section">
-								<button type="button" class="close d-md-none d-lg-none d-xl-none" data-dismiss="modal">&times;</button>
+								<button type="button" class="btn close d-md-none d-lg-none d-xl-none" data-bs-dismiss="modal" aria-label="Close">&times;</button>
 								<h2>About Me</h2>
 								<p>
 									I am Angela Yu,<br>
 									a UI/UX & FrontEnd Designer from Hong Kong,<br>
 									currently based in Taichung, Taiwan.<br><br>
 
-									I have been in this industry for 5+ years,<br>
-									Love to learn and explore new possibilities.<br><br>
+									I have been in this industry for 6+ years,<br>
+									Love to learn and explore new possibilities.<br>
+									Currency learning how to communicate and learn coding with AI.<br><br>
 
 									Coffee Addict,<br>
 									always needs a cup of good coffee to start the day :)<br>
@@ -235,71 +317,18 @@
 								</p>
 								<div class="d-flex justify-content-end self-intro-btn-gp">
 									<a href="https://www.cakeresume.com/s--BoPpte57_Hc-GFXotdZKcQ--/angelayyl" target="_blank" class="btn self-intro-btn-outline">My Resume</a>
-									<a href="mailto:mitsuki0w0@gmail.com" target="_blank" class="btn contact-btn">Let's Talk</a>
+									<a href="./portfolio.html" class="btn intro-btn">Portfolio</a>
 								</div>
 							</div>
 						</div>
 
-						<div class="col-md-6 col-sm-12 col-xs-12 skills-section-bg">
+						<div class="col-md-6 col-sm-12 col-12 skills-section-bg">
 							<div class="skills-section">
-								<button type="button" class="close" data-dismiss="modal">&times;</button>
+								<button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">&times;</button>
 								<h2>My Skills</h2>
 
-								<div class="accordion" id="mySkills">
-
-									<!-- one -->
-								    <div class="card">
-								        <div class="card-header" id="headingOne">
-								            <button class="btn text-green" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-								                <h5>UI/UX <i class="fas fa-angle-down"></i></h5>
-								            </button>     
-								        </div>							        
-								        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#mySkills">
-								            <div class="card-body">
-								                <p>I use Sketch/ Xd for flowchart, wireframe & Mockup, and Zeplin & Bootstrap for Prototype, and knows the process for web product development, with basic concept for WEB UX. 
-												And always love to read and learn the new trend for UI/UX.
-												</p>
-								            </div>
-								        </div>
-								    </div>
-								    <!-- /one -->
-
-								    <!-- two -->
-								    <div class="card">
-								        <div class="card-header" id="headingTwo">
-								            <button class="btn text-green collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-								            	<h5>Web Design <i class="fas fa-angle-down"></i></h5>
-								            </button>
-								        </div>
-								        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#mySkills">
-								            <div class="card-body"><p>
-											I speak HTML , CSS , apply/edit jQuery, and work with Bootstrap as well, also understand how SEO works on websites, and the working process of web development, and how to communicate with the Front-end and Back-end Developer. While creating a website, I have always consider how to make more connection with the users by adding small effects to increase the interactive between the website and the users. Meanwhile, I have been studying on JavaScript recently, and wish to be a Front-end Designer with coding knowledge.
-											</p>
-											</div>
-								        </div>
-								    </div>
-								    <!-- /two -->
-
-								    <!-- three -->
-								    <div class="card">
-								        <div class="card-header" id="headingThree"> 
-							                <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-							               		<h5>Visual Design / Illustration <i class="fas fa-angle-down"></i></h5>
-							                </button>  
-								        </div>
-								        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#mySkills">
-								            <div class="card-body">
-								                <p>
-												Photoshop & Illustrator are my friends for online advertisement and creation. I also have on-hand experience in printed matter. Currently learning After Effect , can produce some simple GIF, and hope to produce some interesting motion graphics in the future.
-								                </p>
-								            </div>
-								        </div>
-								    </div>
-								    <!-- /three -->
-
-								</div>
-								<div class="d-flex justify-content-end self-intro-btn-gp">
-									<a href="./portfolio.html" class="btn intro-btn">Portfolio</a>
+								<div class="d-flex flex-row skills-wrapper">
+									<span>ui/ux</span><span>flowchart</span><span>wireframe</span><span>HTML</span><span>CSS</span><span>Knowledge of JS</span><span>Bootstrap</span><span>Figma</span><span>Sketch</span><span>PS</span><span>AI</span>
 								</div>
 							</div>
 						</div>
@@ -313,12 +342,11 @@
 	</div>
 	<!-- /Loader Wrapper -->
 
-	<!--bootstrap js--->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-	<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<!--bootstrap js -->
+	<script src="./vendor/jquery/3.7.0/jquery.min.js"></script>
+	<script src="./vendor/bootstrap5.3.0/js/popper.min.js" ></script>
+	<script src="./vendor/bootstrap5.3.0/js/bootstrap.min.js"></script>
+	<script src="./vendor/bootstrap5.3.0/js//bootstrap.bundle.min.js" ></script>
 
 	<!--Custom  js -->
 	<script src="./js/custom_js.js"></script>
