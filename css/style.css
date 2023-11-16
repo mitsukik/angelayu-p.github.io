@@ -150,8 +150,12 @@ h5 {
 	color:#999 !important;
 }
 
+.text-left{
+	text-align:left!important;
+}
+
 ol li{
-	text-aglin:left!important;
+	text-align:left!important;
 }
 
 /* bg */
