@@ -1194,6 +1194,17 @@ ul li{
 	color:#2a293f;
 }
 
+
+.section03.img-sty01 img{
+	margin-bottom: 1rem;
+	width: 70%;
+	border: 1px solid #f0f0f5;
+  border-radius: 4px;
+  box-shadow: 0 0 20px 0 rgba(25, 24, 26,.2);
+}
+
+
+
 .work-frame .section02 p{
 	font-size: 16px;
 	color:#f0f0f5;
@@ -1718,6 +1729,13 @@ ul li{
 
 }
 
+/* featuresList */
+.featuresList li{
+	text-align: left;
+	color: #f0f0f5 ;
+}
+
+
 
 @media screen and (max-width: 768px) {
 	/* Intro */
@@ -1775,13 +1793,24 @@ ul li{
 		padding: 1rem 0 0 0;
 	}
 
+
+	.section03.img-sty01 img{
+		width: 100%;
+	}
+
+
+	.processBox01.bg01{
+		border-radius:4px 4px 0px 0px;
+	}
+
+	.processBox01.bg03{
+		border-radius:0 0 4px 4px;
+	}
+
+
 }
 
-/* featuresList */
-.featuresList li{
-	text-align: left;
-	color: #f0f0f5 ;
-}
+
 
 
 
