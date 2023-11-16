@@ -114,6 +114,12 @@ h5 {
 }
 
 
+.highlight-01:hover{
+	background: #FFE342;
+	color: #2A293F;
+}
+
+
 .footerfront p{
 	font-size: .6rem;
 }
@@ -160,6 +166,11 @@ ol li{
     	margin-bottom: 1.5rem;
 }
 
+.work-intro li span{
+	font-weight: 300;
+}
+
+
 /* bg */
 .bg-purple{
 	background:#2a293f!important;
@@ -174,6 +185,18 @@ ol li{
 }
 
 
+/*diamond*/
+.diamond{
+  background: #ABEDD8;
+  height: 10px;
+  text-align: center;
+  transform: rotate(45deg);
+  width: 10px;
+	display: inline-block;
+	margin-right: 1rem;
+	position: relative;
+	top:-2px;
+}
 
 
 /*loader */
@@ -682,7 +705,7 @@ ol li{
 
 .self-section{
 	text-align: left;
-	padding: 80px 35px 80px 50px;
+	padding: 80px 35px 80px 35px;
 }
 
 .self-section h2{
@@ -863,6 +886,59 @@ ol li{
 	color: #f0f0f5;
 	text-transform: lowercase;
 }
+
+.skills-wrapper span:hover{
+	background:rgba(255, 89, 107) ;
+	color: #f0f0f5;
+	text-transform: uppercase;
+}
+
+
+.processBox01.bg01{
+	background:#ffec80;
+	border:1px solid #ffec80;
+	border-radius:4px 0px 0px 4px;
+	color: #2A293F;
+}
+
+
+.processBox01.bg02{
+	background:#FFE342;
+	border:1px solid #FFE342;
+	border-radius:0px;
+	color: #2A293F;
+}
+
+.processBox01.bg03{
+	background:#fff7cc;
+	border:1px solid #fff7cc;
+	border-radius:0 4px 4px 0;
+	color: #2A293F;
+}
+
+.processBox01:hover{
+		border:2px solid rgba(255, 89, 107);
+}
+
+.processBox01 h4{
+	font-weight: 700;
+}
+
+.processBox01 ul{
+	padding-left: 1rem;
+}
+
+.processBox01 li{
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 300;
+    color: #666;
+    margin-bottom: .5rem;
+}
+
+
+
+
 
 
 .page-title{
@@ -1372,7 +1448,6 @@ ol li{
 	width: 600px;
     height: auto;
     margin: 25px;
-    box-shadow: 0 0 30px rgba(42, 41, 63,.5);
 }
 
 
@@ -1694,6 +1769,15 @@ ol li{
 	    min-width: 480px;
 	}
 
+	.processBox01.bg01{
+		border-radius:4px 4px 0px 0px;
+	}
+
+	.processBox01.bg03{
+		border-radius:0 0 4px 4px;
+	}
+
+
 }
 
 
@@ -1730,6 +1814,7 @@ ol li{
 	}
 
 }
+
 
 
 
