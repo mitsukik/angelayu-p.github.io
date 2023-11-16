@@ -156,8 +156,8 @@ h5 {
 
 ol li{
 	text-align:left!important;
-	line-height:24px;
-	margin-bottom:5px;
+	line-height: 1.4rem;
+    	margin-bottom: 1.5rem;
 }
 
 /* bg */
