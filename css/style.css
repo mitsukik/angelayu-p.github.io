@@ -1080,8 +1080,8 @@ ol li{
 
 
 .work-frame .section02 h4,.work-frame .section03 h4{
-	font-size:14px;
-	line-height: 28px;
+	font-size:18px;
+	line-height: 32px;
 	font-weight: 500;
 	color:#666;
 	text-align: left!important;
@@ -1095,7 +1095,7 @@ ol li{
 }
 
 .work-frame .section02 p{
-	font-size: 18px;
+	font-size: 16px;
 	color:#f0f0f5;
 	text-align: left!important;
 }
