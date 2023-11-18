@@ -176,6 +176,13 @@ ul li{
 }
 
 
+.work-intro li span:hover,.work-intro p:hover {
+	background: #ffe342!important;
+	color: #2a293f!important;
+}
+
+
+
 /* bg */
 .bg-purple{
 	background:#2a293f!important;
@@ -317,9 +324,6 @@ ul li{
   transition-delay: 0.8s;
 }
 
-
-
-/* hover */
 
 
 
@@ -959,7 +963,6 @@ ul li{
     color: #666;
     margin-bottom: .5rem;
 }
-
 
 
 
