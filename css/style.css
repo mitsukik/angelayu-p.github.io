@@ -345,7 +345,7 @@ ul li{
 /*btn*/
 .btn {
 	color:#2a293f;
-	cursor: pointer;
+	pointer;
     font-style: 16px
     font-weight: 500;
     letter-spacing: 2px;
@@ -1911,6 +1911,19 @@ ul li{
     line-height: 22px;
     letter-spacing: 1.5px;
   }
+
+.work-wrapper01 .work-intro p.chi-text{
+    font-size: 16px;
+    font-weight: 400;
+    color: #f0f0f5;
+    line-height: 22px;
+    letter-spacing: 1.5px;
+  }
+
+.chi-text{
+    font-size: 16px!important;
+    line-height: 28px;
+}
 
 .work-wrapper01 .work-intro.sty01 p{
 	color: #34324d;
