@@ -345,7 +345,7 @@ ul li{
 /*btn*/
 .btn {
 	color:#2a293f;
-	cursor: pointer;
+	/*cursor: pointer;*/
     font-style: 16px
     font-weight: 500;
     letter-spacing: 2px;
@@ -384,7 +384,7 @@ ul li{
 
 .intro-btn-01{
 	color:#f0f0f5 !important;
-	cursor: pointer;
+	/*cursor: pointer;*/
   font-style: 16px
   font-weight: 500;
   letter-spacing: 2px;
@@ -519,7 +519,7 @@ ul li{
 	-moz-transition: .5s ease-in-out;
 	-o-transition: .5s ease-in-out;
 	transition: .5s ease-in-out;
-	cursor: pointer;
+	/*cursor: pointer;*/
 }
 
 .nav-icon0 span {
@@ -608,7 +608,7 @@ ul li{
 
 /* NAV Link */
 .nav-link{
-	cursor: pointer;
+	/*cursor: pointer;*/
 }
 
 .mobileMenu .navbar-nav li a{
@@ -1007,7 +1007,7 @@ ul li{
 
 .caseItem-wrapper:hover{
 	border:1px solid #FF586B;
-	cursor: zoom-in;
+	/*cursor: zoom-in;*/
   box-shadow: 10px 10px 0px 0px rgba(25, 24, 26,.8);
 }
 
@@ -1091,7 +1091,7 @@ ul li{
 
 .portfolio-img{
 	background:#333;
-	cursor: pointer;
+	/*cursor: pointer;*/
 	z-index: 99;
 }
 
@@ -1158,13 +1158,13 @@ ul li{
 }
 
 .work-intro a{
-  cursor: pointer;
+  /*cursor: pointer;*/
 	color:#FF596B;
 	font-size: 1rem;
 }
 
 .btn.btn-link, a.btn.btn-link{
-  cursor: pointer;
+  /*cursor: pointer;*/
   display: inline-block;
   position: relative;
   transition: 0.5s;
@@ -1198,7 +1198,7 @@ ul li{
 
 
 .btn.btn-link02, a.btn.btn-link02{
-  cursor: pointer;
+  /*cursor: pointer;*/
   display: inline-block;
   position: relative;
   transition: 0.5s;
@@ -1790,6 +1790,23 @@ ul li{
 	text-align: left;
 	color: #f0f0f5 ;
 }
+
+
+/* text on img */
+.img-text-wrapper{
+  position: relative;
+
+}
+
+
+/* Bottom right text */
+.text-sty01{
+	position: relative;
+  top: -200px;
+  left: 25px;
+}
+
+
 
 
 

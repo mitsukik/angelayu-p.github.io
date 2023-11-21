@@ -1792,6 +1792,25 @@ ul li{
 }
 
 
+/* img-text-wrapper */
+.img-text-wrapper{
+	position: relative;
+}
+
+.img-text-wrapper .text-sty01{
+		position:absolute;
+    bottom: 90px;
+    right: 230px;
+  }
+
+.img-text-wrapper .text-sty02{
+		position:absolute;
+    bottom: 50px;
+    right: 230px;
+  }
+
+
+
 
 @media screen and (max-width: 768px) {
 	/* Intro */
