@@ -1197,6 +1197,44 @@ ul li{
 }
 
 
+.btn.btn-link02, a.btn.btn-link02{
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  border: 0;
+	color:#FF596B;
+	outline: none!important;
+	box-shadow: none!important;
+	background: transparent;
+	text-decoration: none;
+}
+
+.btn.btn-link02:after {
+  content: '«';
+  position: absolute;
+  opacity: 0;  
+  top: 10px;
+  left: -10px;
+  transition: 0.5s;
+  color:#FF596B;
+}
+
+.btn.btn-link02:hover{
+  padding-right: 8px;
+  padding-left:24px;
+}
+
+.btn.btn-link02:hover:after {
+  opacity: 1;
+  left: 10px;
+}
+
+
+
+
+
+
 .work-frame .section02 h4,.work-frame .section03 h4{
 	font-size:18px;
 	line-height: 32px;
