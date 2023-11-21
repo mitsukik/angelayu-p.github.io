@@ -1880,6 +1880,7 @@ ul li{
 
 .work-wrapper01{
 	overflow-x: scroll;
+	overflow-y: hidden;
 	height: 500px;
 	position: relative;
 }
