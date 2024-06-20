@@ -1898,9 +1898,9 @@ ul li{
 
 
 .work-wrapper01{
-	overflow-x: hidden;
-	overflow-y: scroll;
-	height: 500px;
+	/*overflow-x: hidden;*/
+	/*overflow-y: scroll;*/
+	min-height: 580px;
 	position: relative;
 }
 
@@ -1953,6 +1953,7 @@ ul li{
     position: absolute;
     right: 5%;
     top: 250px;
+    z-index: 999;
 }
 
 
