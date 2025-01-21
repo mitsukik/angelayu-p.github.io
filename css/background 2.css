@@ -1,0 +1,281 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC:100,300,400,500,700,900&display=swap');
+
+/* background */
+.shape-bg01{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.shape-bg01-p{
+    z-index: -1;
+}
+
+.shape-bg01 li{
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    animation: animate 25s linear infinite;
+    bottom: -150px;
+}
+
+
+/*Rectangle*/
+.shape-bg01 li:nth-child(1){
+    left: 20%;
+    width: 80px;
+    height: 10px;
+	background: rgba(255, 89, 107,.6);
+    animation-delay: 0s;
+}
+
+.shape-bg01 li:nth-child(2){
+    left: 15%;
+    width: 50px;
+    height: 10px;
+	background: rgba(255, 227, 66,.6);
+    animation-delay: 5s;
+}
+
+
+.shape-bg01 li:nth-child(3){
+    left: 40%;
+    width: 40px;
+    height: 10px;
+	background: rgba(171, 237, 216,.6);
+    animation-delay: 7s;
+}
+
+
+.shape-bg01 li:nth-child(4){
+    left: 70%;
+    width: 60px;
+    height: 10px;
+	background: rgba(255, 227, 66,.6);
+    animation-delay: 5s;
+}
+
+.shape-bg01 li:nth-child(5){
+    left: 60%;
+    width: 30px;
+    height: 10px;
+	background: rgba(255, 89, 107,.6);
+    animation-delay: 0s;
+    animation-duration: 12s;
+}
+
+
+
+/* circle */
+.shape-bg01 li:nth-child(6){
+    left: -10%;
+    width: 400px;
+    height: 406px;
+    animation-delay: 0s;
+    animation-duration: 35s;
+    background-image: url(../img/bg/shapes/circle-red-lg.png);
+    background-repeat: no-repeat;
+    bottom: -500px;
+}
+
+.shape-bg01 li:nth-child(7){
+    left: 35%;
+    width: 233px;
+    height: 232px;
+    animation-delay: 15s;
+    animation-duration: 45s;
+    background-image: url(../img/bg/shapes/circle-hole-yellow.png);
+    background-repeat: no-repeat;
+    bottom: -250px;
+    opacity: 0.6;
+}
+
+.shape-bg01 li:nth-child(8){
+    left: 90%;
+    width: 441px;
+    height: 436px;
+    animation-delay: 25s;
+    animation-duration: 35s;
+    background-image: url(../img/bg/shapes/circle-green-lg.png);
+    background-repeat: no-repeat;
+    bottom: -500px;
+}
+
+
+/* half circle */
+.shape-bg01 li:nth-child(9){
+    left: 3%;
+    height: 45px;
+    width: 90px;
+    border-top-left-radius: 110px;  /* 100px of height + 10px of border */
+    border-top-right-radius: 110px; /* 100px of height + 10px of border */
+    border: 1px solid rgba(171, 237, 216,.6);
+    border-bottom: 0;
+	background: rgba(171, 237, 216,.6);
+    animation-delay: 3s;
+}
+
+.shape-bg01 li:nth-child(10){
+    left: 55%;
+    height: 23px;
+    width: 46px;
+    border-top-left-radius: 110px;  /* 100px of height + 10px of border */
+    border-top-right-radius: 110px; /* 100px of height + 10px of border */
+    border: 1px solid rgba(171, 237, 216,.6);
+    border-bottom: 0;
+	background: rgba(171, 237, 216,.6);
+    animation-delay: 7s;
+    animation-duration: 15s;
+}
+
+.shape-bg01 li:nth-child(11){
+    left: 75%;
+    height: 45px;
+    width: 90px;
+    border-top-left-radius: 110px;  /* 100px of height + 10px of border */
+    border-top-right-radius: 110px; /* 100px of height + 10px of border */
+    border: 1px solid rgba(255, 89, 107,.6);
+    border-bottom: 0;
+	background: rgba(255, 89, 107,.6);
+    animation-delay: 11s;
+}
+
+
+/* Triangle */
+.shape-bg01 li:nth-child(12){
+    left: 10%;
+	width: 0;
+	height: 0;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-bottom: 25px solid rgba(171, 237, 216,.6);
+    animation-delay: 0s;
+    animation-duration: 18s;
+}
+
+.shape-bg01 li:nth-child(13){
+    left: 45%;
+	width: 0;
+	height: 0;
+	border-left: 8px solid transparent;
+	border-right: 8px solid transparent;
+	border-bottom: 15px solid rgba(255, 227, 66,.6);
+    animation-delay: 3s;
+}
+
+
+/* cross */
+.shape-bg01 li:nth-child(14){
+    left: 20%;
+    width: 36px;
+    height: 36px;
+    animation-delay: 8s;
+    background-image: url(../img/bg/shapes/cross-yellow.png);
+    background-repeat: no-repeat;
+}
+
+
+.shape-bg01 li:nth-child(15){
+    left: 50%;
+    width: 42px;
+    height: 42px;
+    animation-delay: 12s;
+    background-image: url(../img/bg/shapes/cross-red.png);
+    background-repeat: no-repeat;
+}
+
+
+/* Square */
+.shape-bg01 li:nth-child(16){
+    left: 85%;
+    width: 127px;
+    height: 127px;
+    animation-delay: 2s;
+    animation-duration: 35s;
+    background-image: url(../img/bg/shapes/square-yellow.png);
+    background-repeat: no-repeat;
+    opacity: 0.6;
+}
+
+.shape-bg01 li:nth-child(17){
+    left: 75%;
+    width: 25px;
+    height: 25px;
+    animation-delay: 0s;
+    animation-duration: 25s;
+	background: rgba(171, 237, 216,.6);
+}
+
+
+
+@keyframes animate {
+    0%{
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+    }
+
+    100%{
+        transform: translateY(-1200px) rotate(720deg);
+        opacity: 0;
+    }
+}
+
+
+
+@media screen and (max-width: 480px) {
+/*Rectangle*/
+.shape-bg01 li:nth-child(1){
+    left: 20%;
+    width: 80px;
+    height: 10px;
+	background: rgba(255, 89, 107,.6);
+    animation-delay: 0s;
+}
+
+	.shape-bg01 li:nth-child(2){
+		display: none;
+	}
+
+
+.shape-bg01 li:nth-child(3){
+    left: 40%;
+    width: 40px;
+    height: 10px;
+	background: rgba(171, 237, 216,.6);
+    animation-delay: 7s;
+}
+
+
+	.shape-bg01 li:nth-child(4){
+		display: none;
+	}
+
+
+
+	/* half circle */
+	.shape-bg01 li:nth-child(9){
+		display: none;
+	}
+
+
+	/* circle */
+	.shape-bg01 li:nth-child(6){
+		display: none;
+	}
+
+	.shape-bg01 li:nth-child(7){
+	    left: -40%;
+	}
+
+	.shape-bg01 li:nth-child(8){
+		display: none;
+	}
+
+}
